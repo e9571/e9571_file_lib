@@ -1,0 +1,16 @@
+[package]
+name = "e9571_file_lib"
+version = "0.1.2"
+edition = "2024"
+description = "A Rust crate for file and directory operations, including MD5 hashing and recursive copying"
+license = "MIT"
+repository = "https://github.com/e9571/e9571_file_lib"
+documentation = "https://docs.rs/e9571_file_lib"
+homepage = "https://github.com/e9571"
+keywords = ["file", "directory", "md5", "filesystem", "data-processing"]
+categories = ["filesystem", "data-structures"]
+
+[dependencies]
+lazy_static = "1.5.0"
+chksum-md5 = "0.1"
+
